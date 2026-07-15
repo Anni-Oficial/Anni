@@ -1894,3 +1894,44 @@ p,
         transform: none;
     }
 }
+/* ===========================
+   BOTÓN PAYPAL
+=========================== */
+
+.button.paypal{
+
+    border:2px solid #009cde;
+
+    background:linear-gradient(
+    135deg,
+    rgba(0,156,222,.18),
+    rgba(0,48,135,.35));
+
+    box-shadow:
+    0 0 12px rgba(0,156,222,.55),
+    0 0 28px rgba(0,48,135,.35);
+
+}
+
+.button.paypal i{
+
+    color:#ffffff;
+
+    text-shadow:
+    0 0 8px #009cde,
+    0 0 18px #003087;
+
+}
+
+.button.paypal:hover{
+
+    background:linear-gradient(
+    135deg,
+    rgba(0,156,222,.35),
+    rgba(0,48,135,.55));
+
+    box-shadow:
+    0 0 20px rgba(0,156,222,.8),
+    0 0 40px rgba(0,48,135,.6);
+
+}
